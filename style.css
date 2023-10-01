@@ -28,7 +28,10 @@
     gap: 1rem;
     margin-left: 2.2rem;
     margin-right: 2.2rem;
-    
+}
+
+#searchbar > span {
+    color: #6b5e78;
 }
 
 input[type=text] {
@@ -40,6 +43,8 @@ input[type=text] {
     border: none;
     background-color: #d0ddd9;
     border-radius: 0.6rem;
+    font-family: 'Raleway', sans-serif;
+    color: #6b5e78;
 }
 
 #un-icons {
@@ -49,6 +54,7 @@ input[type=text] {
     width: 12vw;
     justify-content: space-evenly;
     margin: auto;
+    color: #6b5e78;
 }
 
 #un-profile {
@@ -62,10 +68,14 @@ input[type=text] {
     gap: 0.3rem;
 }
 
+#un-profile > span {
+    color: #6b5e78;
+}
+
 #un-profile > img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     padding: 0.2rem;
     color: #020302;
 }
@@ -79,6 +89,63 @@ input[type=text] {
     border-bottom-right-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem;
     color: #020302;
+    font-family: 'Raleway', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#ln-greetings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2.2rem;
+}
+
+#ln-greetings > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+#greet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hithere {
+    padding-top: 0.5rem;
+}
+
+
+#ln-name {
+    font-size: 1.4rem;
+}
+
+#handle {
+    color: #6b5e78;
+    font-size: 0.9rem;
+}
+
+#ln-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-right: 3.1rem;
+}
+
+#ln-buttons > button {
+    border: none;
+    width: 6rem;
+    height: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #b5c9b9;
+    border-radius: 0.2rem;
 }
 
 #sidebar {
@@ -90,6 +157,10 @@ input[type=text] {
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     color: #020302;
+}
+
+.sidebar-section > span, .sidebar-logo > span {
+    color: #6b5e78
 }
 
 #main-board {
